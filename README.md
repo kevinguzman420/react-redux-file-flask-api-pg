@@ -1,3 +1,27 @@
+# Ejemplo inconcluso de carrito de compras
+# Con REACT - REDUX- FLASK - POSTGRESQL
+
+### El propósito es enviar imagenes (files) a traves de la api desde react a flask y guardar las imagenes.
+El usuario ver los productos por categorias, seleciona los productos de una categoria,
+puede agregarlos a un carrito de compras.
+
+El administrador, puede crear categorias nuevas, y agregar productos de cada catetogia.
+
+## Uso
+en el directorio raíz correr en la terminal 
+yarn install
+yarn start
+En el directorio "api"
+source venv/bin/activate
+pip install > requirements.txt
+deactivate
+cd ..
+yarn start-api
+
+## Ver el funcionamiento
+navegar al [Local Host | puerto 3000](http://localhost:3000)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
